@@ -7,7 +7,4 @@ int main(){
     if (avg!=0){
     printf("Average: %.2f",avg);
     }
-    else{
-        printf("Average: 0");
-    }
 }
