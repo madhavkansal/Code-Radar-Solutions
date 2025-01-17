@@ -2,5 +2,5 @@
 int main(){
     double d;
     scanf("%lf",&d);
-    printf("%lf",d)
+    printf("%lf",d);
 }
