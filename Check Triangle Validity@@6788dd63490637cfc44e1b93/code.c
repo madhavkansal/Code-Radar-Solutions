@@ -5,8 +5,7 @@ int main(){
     a=x*x;
     b=y*y;
     c=z*z;
-    if(a+b<=z){
-
+    if(a+b<=c){
 printf("Valid");    }
 else{
     printf("Invalid");
