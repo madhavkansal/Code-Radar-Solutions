@@ -6,11 +6,11 @@ int main(){
     switch(o){
         case "+":
         c=x+y
-        printf("%d",c)
+        printf("%d",c);
         break
         case '-':
         c=x-y:
-        printf("%d",c)
+        printf("%d",c);
         break;
         case '*':
         c=x*y;
