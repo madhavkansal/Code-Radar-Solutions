@@ -8,7 +8,7 @@ int main(){
         case "+":
         c=x+y;
         printf("%d",c);
-        break
+        break;
         case '-':
         c=x-y;
         printf("%d",c);
