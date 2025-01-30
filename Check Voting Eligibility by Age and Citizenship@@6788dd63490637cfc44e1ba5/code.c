@@ -5,6 +5,7 @@ int main(){
     if (x>=18 && y==1){
         printf("Eligible");
     }
-    else:
+    else{
     printf("Not Eligible");
+    }
 }
