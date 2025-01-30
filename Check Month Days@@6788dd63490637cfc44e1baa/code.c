@@ -30,17 +30,17 @@ int main(){
         case 9:
         printf("30");
         break;
-        case 10;
+        case 10:
         printf("31");
         break;
         case 11:
         printf("30");
         break;
-        // case 12:
-        // printf("31");
-        // break;
-        // default:
-        // printf("Invalid month");
-        // break;
+        case 12:
+        printf("31");
+        break;
+        default:
+        printf("Invalid month");
+        break;
     }
 }
