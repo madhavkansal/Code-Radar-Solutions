@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int a;
+    scanf("%u",&a)
     if('a'<=a && a<='z'){
         if(a=='a'||a=='e'||a=='i',a=='o'||a=='u'){
         printf("Vowel");
