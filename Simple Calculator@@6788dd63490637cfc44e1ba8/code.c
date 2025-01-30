@@ -22,9 +22,12 @@ int main(){
         c=x/y;
         printf("%d",c);
         }
+        else{
+            printf("error")
+        }
         break;
         default:
-        printf("Error");
+        printf("error");
         break;
     }
 }
