@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
-    scanf("%u",&a)
+    char c;
+    scanf("%c",&c)
     if('a'<=a && a<='z'){
         if(a=='a'||a=='e'||a=='i',a=='o'||a=='u'){
         printf("Vowel");
@@ -17,7 +18,7 @@ int main(){
             printf("Consonant");
         }
     }
-    else if(0<=a && a<=9){
+    else if('0'<=a && a<='9'){
         printf("Digit");
     }
     else{
