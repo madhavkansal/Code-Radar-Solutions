@@ -18,8 +18,10 @@ int main(){
         printf("%d",c);
         break;
         case '/':
+        if(y!=0){
         c=x/y;
         printf("%d",c);
+        }
         break;
     }
 }
