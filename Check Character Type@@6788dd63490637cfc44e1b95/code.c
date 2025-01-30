@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-    char c;
-    scanf("%c",&c);
+    char a;
+    scanf("%c",&a);
     if('a'<=a && a<='z'){
         if(a=='a'||a=='e'||a=='i',a=='o'||a=='u'){
         printf("Vowel");
