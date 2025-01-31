@@ -5,5 +5,5 @@ int main(){
     for(b=1;b<=a;b++){
         sum+=b;
     }
-    printf("%d",&sum);
+    printf("%d",sum);
 }
