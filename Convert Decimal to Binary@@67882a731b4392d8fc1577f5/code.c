@@ -8,7 +8,7 @@ int main() {
 
     // Handle the case when the number is 0
     if (decimal == 0) {
-        printf("Binary: 0\n");
+        printf("0\n");
         return 0;
     }
 
