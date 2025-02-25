@@ -11,7 +11,7 @@ int main() {
 
     // Check if the number has any set bits
     if (lowestSetBit) {
-        printf("%u\n",lowestSetBit-1);
+        printf("%u\n",number);
     } 
 
     return 0;
