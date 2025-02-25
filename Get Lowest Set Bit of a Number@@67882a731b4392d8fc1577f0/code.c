@@ -4,7 +4,6 @@ int main() {
     unsigned int number;
 
     // Prompt the user for input
-    printf("Enter a number: ");
     scanf("%u", &number);
 
     // Calculate the lowest set bit
