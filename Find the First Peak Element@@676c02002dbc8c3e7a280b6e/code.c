@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main() {
-    int n;
+    int n,p;
     scanf("%d", &n);
     int a[n];
     
@@ -25,7 +25,7 @@ int main() {
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
             if (a[j] > a[j + 1]) {
-                int p=a[j];
+                p=a[j];
                 break;
         }
     }
@@ -34,4 +34,4 @@ int main() {
     printf("%d\n", p);
     
     return 0;
-}
+}}
