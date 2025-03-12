@@ -15,5 +15,5 @@ int main(){
             }
         }
     }
-    printf("%d",a[2]);
+    printf("%d",a[1]);
 }
