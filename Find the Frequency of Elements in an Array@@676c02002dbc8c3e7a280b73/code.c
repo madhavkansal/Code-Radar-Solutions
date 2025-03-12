@@ -7,10 +7,10 @@ int main(){
         scanf("%d",&a[i]);
     }
     for (int i=0;i<n;i++){
-        int v=0;
+        int v[i]=0;
     }
     for (int i=0;i<n;i++){
-        if(v=1){
+        if(v[i]=1){
             continue;
         }
         int c=0
