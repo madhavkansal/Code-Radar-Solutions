@@ -11,6 +11,6 @@ int main(){
         printf("%d ",a[n-i]);
     }
     for (int i=0;i<b;i++){
-        printf("%d",a[i]);
+        printf("%d ",a[i]);
     }
 }
