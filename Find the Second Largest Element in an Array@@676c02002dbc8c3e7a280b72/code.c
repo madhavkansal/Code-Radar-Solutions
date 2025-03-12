@@ -11,7 +11,7 @@ int main(){
     }
     else{
     for (int i=0;i<n-1;i++){
-        if(a[i]==a[0] &&){
+        if(a[i]==a[0] ){
             p=0;
         }
     }
