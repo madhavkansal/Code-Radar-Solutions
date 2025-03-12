@@ -11,10 +11,8 @@ int main(){
     }
     else{
     for (int i=0;i<n-1;i++){
-        for (int j=0;j<n-i-1;j++){
-        if(a[i]==a[j] ){
+        if(a[i]==a[0] &&){
             p=0;
-        }
         }
     }
     for(int i=0;i<n-1;i++){
@@ -30,7 +28,7 @@ int main(){
     printf("%d",a[1]);
     }
     else{
-        printf("-1");
+        printf("-1")
     }
     }
 }
