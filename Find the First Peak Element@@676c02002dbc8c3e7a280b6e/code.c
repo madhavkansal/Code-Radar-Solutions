@@ -15,7 +15,7 @@ int main() {
             break;
         }
     }
-    else{
+    
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) { // Corrected 'i' to 'j' here
             if (a[j] < a[j + 1]) {
@@ -31,5 +31,4 @@ int main() {
     printf("%d\n", a[0]);
     
     return 0;
-    }
 }
