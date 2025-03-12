@@ -28,7 +28,7 @@ int main(){
     printf("%d",a[1]);
     }
     else{
-        printf("-1")
+        printf("-1");
     }
     }
 }
