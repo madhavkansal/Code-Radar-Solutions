@@ -10,14 +10,14 @@ int main(){
         v[i]=0;
     }
     for (int i=0;i<n;i++){
-        if(v[i]=1){
+        if(v[i]==1){
             continue;
         }
-        int c=0;
+        int c=1;
         for(int j=0;j<n-i-1;j++){
-            if(a[i]==a[j]){
+            if(a[j]==a[j+1]){
                 c+=1;
-                v[i]=1;
+                v[j]=1;
             }
         }
         printf("%d %d",a[i],c);
