@@ -17,7 +17,7 @@ int main(){
         for(int j=0;j<n-i-1;j++){
             if(a[j]==a[j+1]){
                 c+=1;
-                v=1;
+                v[i]=1;
             }
         }
         printf("%d %d",a[i],c);
