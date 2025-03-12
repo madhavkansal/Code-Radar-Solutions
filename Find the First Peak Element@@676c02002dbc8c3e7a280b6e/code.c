@@ -13,10 +13,10 @@ int main() {
         if(a[i]==a[i+1]){
             printf("-1\n");
             break;
-            exit;
+            return 0;
         }
     }
-
+    
     
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) { // Corrected 'i' to 'j' here
