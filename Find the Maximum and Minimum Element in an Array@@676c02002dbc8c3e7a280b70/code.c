@@ -15,5 +15,5 @@ int main(){
             }
         }
     }
-    printf("%d %d",a[0],a[0]);
+    printf("%d %d",a[n-1],a[0]);
         }
