@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
     int n;
@@ -9,17 +10,20 @@ int main() {
     for (int i = 0; i < n; i++) {
         scanf("%d", &a[i]);
     }
-    for(int i=0;i<n;i++){
-        if(a[i]==a[i+1]){
-            printf("-1\n");
-            break;
-            return 0;
+
+    // Check for duplicates
+    for (int i = 0; i < n; i++) {
+        for (int j = i + 1; j < n; j++) { // Compare with all subsequent elements
+            if (a[i] == a[j]) {
+                printf("-1\n");
+                return 0; // Exit the program
+            }
         }
-         return 0;
     }
-    
+
+    // Bubble sort in descending order
     for (int i = 0; i < n - 1; i++) {
-        for (int j = 0; j < n - i - 1; j++) { // Corrected 'i' to 'j' here
+        for (int j = 0; j < n - i - 1; j++) {
             if (a[j] < a[j + 1]) {
                 // Swap a[j] and a[j + 1]
                 int temp = a[j];
