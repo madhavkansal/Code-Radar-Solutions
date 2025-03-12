@@ -8,7 +8,7 @@ int main(){
     }
     scanf("%d",&b);
     if(b>n){
-        b==3;
+        b=3;
     }
     for (int i=b;i>0;i--){
         printf("%d ",a[n-i]);
