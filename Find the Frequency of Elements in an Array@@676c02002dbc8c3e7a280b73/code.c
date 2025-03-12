@@ -15,7 +15,7 @@ int main(){
         }
         int c=0;
         for(int j=0;j<n-i-1;j++){
-            if(a[j]==a[j+1]){
+            if(a[i]==a[j]){
                 c+=1;
                 v[i]=1;
             }
