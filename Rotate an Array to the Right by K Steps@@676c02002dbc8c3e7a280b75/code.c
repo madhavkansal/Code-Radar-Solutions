@@ -10,7 +10,7 @@ int main(){
     for (int i=b;i>0;i--){
         printf("%d ",a[n-i]);
     }
-    for (int i=1;i<=b;i++){
+    for (int i=0;i<b;i++){
         printf("%d ",a[i]);
     }
 }
