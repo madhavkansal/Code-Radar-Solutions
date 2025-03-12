@@ -20,6 +20,6 @@ int main(){
                 v[j]=1;
             }
         }
-        printf("%d %d",a[i],c);
+        printf("%d %d\n",a[i],c);
     }
     }
