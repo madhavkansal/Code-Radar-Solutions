@@ -1,30 +1,25 @@
-#include <stdio.h>
-
-int main() {
-    int arr[] = {1, 2, 2, 3, 3, 3, 4, 4, 4, 4};
-    int size = sizeof(arr) / sizeof(arr[0]);
-    int visited[size]; // Array to keep track of visited elements
-
-    // Initialize the visited array
-    for (int i = 0; i < size; i++) {
-        visited[i] = 0;
+#include<stidio.h>
+int main(){
+    int n;
+    scanf("%d",&n);
+    int a[n];
+    for (int i=0;i<n;i++){
+        scanf("%d",&a[i]);
     }
-
-    // Loop through each element in the array
-    for (int i = 0; i < size; i++) {
-        if (visited[i] == 1) {
-            continue; // Skip if already counted
+    for (int i=0;i<n;i++){
+        int v=0;
+    }
+    for (int i=0;i<n;i++){
+        if(v=1){
+            continue;
         }
-
-        int count = 1; // Count the frequency of arr[i]
-        for (int j = i + 1; j < size; j++) {
-            if (arr[i] == arr[j]) {
-                count++;
-                visited[j] = 1; // Mark as visited
+        int c=0
+        for(int j=0;j<n-i-1;j++){
+            if(a[j]==a[j+1]){
+                c+=1;
+                v=1
             }
         }
-        printf("%d %d\n", arr[i], count);
+        printf("%d %d",a[i],c);
     }
-
-    return 0;
-}
+    }
