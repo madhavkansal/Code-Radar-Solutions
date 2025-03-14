@@ -8,14 +8,18 @@ int main() {
     }
     int m;
     scanf("%d",&m);
+    int p=0
     for (int i=0;i<n;i++){
-        if(a[i]==m){
-            printf("%d",i);
+        if(m==a[i]){
+            int x=i;
+            p=1;
             break;
         }
-        else{
-            printf("-1");
-            break;
-        }
+    }
+    if(p){
+        printf("%d",x)
+    }
+    else{
+        printf("-1");
     }
 }
