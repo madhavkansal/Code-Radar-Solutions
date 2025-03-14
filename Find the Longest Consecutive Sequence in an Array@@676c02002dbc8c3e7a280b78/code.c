@@ -6,8 +6,8 @@ int main(){
     for (int i=0;i<n;i++){
         scanf("%d",&n);
     }
-    for (int i=0;i<n;i++){
-        for(int j=0;j<n-i-1;j++){
+    for (int i=1;i<n;i++){
+        for(int j=1;j<n-i-1;j++){
             if(a[j]>a[j+1]){
                 int t=a[j];
                 a[j]=a[j+1];
