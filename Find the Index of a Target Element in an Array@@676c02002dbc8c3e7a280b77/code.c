@@ -17,7 +17,7 @@ int main() {
         }
     }
     if(p){
-        printf("%d",x)
+        printf("%d",x);
     }
     else{
         printf("-1");
