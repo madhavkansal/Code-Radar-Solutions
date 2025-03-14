@@ -14,7 +14,7 @@ int main() {
     // Check for duplicates
     for (int i = 0; i < n-1; i++) {
         for (int j = i; j < n; j++) { // Compare with all subsequent elements
-            if (a[i] == a[j]) {
+            if (a[j] == a[j+1]) {
                 printf("-1\n");
                 return 0; // Exit the program
             }
