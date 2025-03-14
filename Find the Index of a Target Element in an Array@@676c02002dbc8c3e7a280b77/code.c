@@ -8,10 +8,10 @@ int main() {
     }
     int m;
     scanf("%d",&m);
-    int p=0;
+    int x,p=0;
     for (int i=0;i<n;i++){
         if(m==a[i]){
-            int x=i;
+            x=i;
             p=1;
             break;
         }
