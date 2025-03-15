@@ -6,16 +6,11 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    int v=0;
-    
     for(int i=0;i<n;i++){
-        if(v==1){
-        continue;
-    }
         for(int j=2;j*j<=a[n];j++){
             if(a[i]%j!=0){
                 c+=1;
-                v=1;
+                break;
             }
         }
     }
