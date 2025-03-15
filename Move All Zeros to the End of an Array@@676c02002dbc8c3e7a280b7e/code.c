@@ -12,8 +12,11 @@ int main(){
             a[i]=a[i+1];
             a[i+1]=temp;
         }
+        else{
+            continue;
+        }
     }
     for(int i=0;i<n;i++){
-        printf("%d",a[i]);
+        printf("%d ",a[i]);
     }
 }
