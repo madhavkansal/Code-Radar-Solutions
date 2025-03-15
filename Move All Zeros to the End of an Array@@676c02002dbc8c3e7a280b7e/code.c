@@ -11,7 +11,7 @@ int main(){
             int temp=a[i];
             a[i]=a[i+1];
             a[i+1]=temp;
-            break;
+            continue;
         }
     }
     for(int i=0;i<n;i++){
