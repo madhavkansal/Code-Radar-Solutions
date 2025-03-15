@@ -4,13 +4,10 @@ int main(){
     scanf("%d",&n);
     int a[n],a1[n];
     for(int i=0;i<n;i++){
-        scanf("%d",&n);
+        scanf("%d",&a[i]);
     }
     for(int i=n,j=0;i>=0 && j<n;i--,j++){
         a1[j]=a[i];
-    }
-    for(int i=0;i<n;i++){
-        printf("%d",a1[i]);
     }
     int p=1;
     for(int i=0;i<n;i++){
