@@ -6,7 +6,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&n);
     }
-    for(int i=n,j=0;i>=0 && j<n;i++,j--){
+    for(int i=n,j=0;i>=0 && j<n;i--,j++){
         a1[j]=a[i];
     }
     int p=1;
