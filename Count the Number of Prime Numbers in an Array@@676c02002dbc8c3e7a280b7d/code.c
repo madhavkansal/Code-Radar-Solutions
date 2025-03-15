@@ -7,10 +7,11 @@ int main(){
         scanf("%d",&a[i]);
     }
     int v=0;
-    if(v==1){
+    
+    for(int i=0;i<n;i++){
+        if(v==1){
         continue;
     }
-    for(int i=0;i<n;i++){
         for(int j=2;j*j<=a[n];j++){
             if(a[i]%j!=0){
                 c+=1;
