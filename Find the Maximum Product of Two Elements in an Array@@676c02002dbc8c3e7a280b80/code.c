@@ -25,6 +25,6 @@ int main(){
     printf("%d",a[0]*a[1]);
     }
     else{
-        pri tf("%d",a[n-1]*a[n-2]);
+        printf("%d",a[n-1]*a[n-2]);
     }
 }
