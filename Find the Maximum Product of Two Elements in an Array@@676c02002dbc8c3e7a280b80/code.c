@@ -15,5 +15,16 @@ int main(){
             }
         }
     }
+    int p;
+    for(int i=0;i<n;i++){
+        if(a[i]>=0){
+            p=1
+        }
+    }
+    if(p){
     printf("%d",a[0]*a[1]);
+    }
+    else{
+        pri tf("%d",a[n-1]*a[n-2]);
+    }
 }
