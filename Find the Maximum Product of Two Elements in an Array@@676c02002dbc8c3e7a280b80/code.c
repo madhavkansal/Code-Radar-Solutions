@@ -15,10 +15,10 @@ int main(){
             }
         }
     }
-    int p;
+    int p=0;
     for(int i=0;i<n;i++){
         if(a[i]>=0){
-            p=1
+            p=1;
         }
     }
     if(p){
