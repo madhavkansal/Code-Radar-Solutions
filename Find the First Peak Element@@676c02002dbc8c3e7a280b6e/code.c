@@ -26,7 +26,7 @@ int main() {
                 break;
         }
     }
-    if(p==a[n-1]){
+    if(p!=a[n-1]){
     printf("%d\n", p);
     }
     else{
