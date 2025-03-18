@@ -19,9 +19,6 @@ int main() {
                 return 0; // Exit the program
             }
         }
-    }
-
-    // Bubble sort in descending order
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
             if (a[j] > a[j + 1] && a[j]>a[j-1]) {
@@ -29,9 +26,12 @@ int main() {
                 break;
         }
     }
-    
-    // Print the largest element
+    if(p=!a[n-1]){
     printf("%d\n", p);
+    }
+    else{
+        printf("%d",a[n-1])
+    }
     
     return 0;
 }}
