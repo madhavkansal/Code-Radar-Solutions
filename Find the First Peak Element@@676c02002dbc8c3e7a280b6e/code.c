@@ -30,7 +30,7 @@ int main() {
     printf("%d\n", p);
     }
     else{
-        printf("%d",a[n-1])
+        printf("%d",a[n-1]);
     }
     
     return 0;
