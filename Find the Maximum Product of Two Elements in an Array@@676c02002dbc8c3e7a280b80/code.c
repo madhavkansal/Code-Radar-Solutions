@@ -8,8 +8,9 @@ int main(){
         scanf("%d",&a[i]);
     }
     for(int i=0;i<n;i++){
+        a[i]=abs(a[i]);
         for (int j=0;j<n-i-1;j++){
-            a[j]=abs(a[j]);
+            
             if(a[j]<a[j+1]){
                 int t=a[j];
                 a[j]=a[j+1];
@@ -17,7 +18,6 @@ int main(){
             }
         }
     }
-    
     printf("%d",a[0]*a[1]);
    
 }
