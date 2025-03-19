@@ -13,6 +13,9 @@ int main(){
             j=1;
             break;
         }
+        else{
+            continue;
+        }
     }
 }
 
