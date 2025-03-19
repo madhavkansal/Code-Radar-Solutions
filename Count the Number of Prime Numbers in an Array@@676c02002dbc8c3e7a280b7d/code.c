@@ -7,7 +7,7 @@ int main(){
         scanf("%d",&a[i]);
     }
     for(int i=0;i<n;i++){
-        for(int j=2;j*j<=a[n];j++){
+        for(int j=2;j*j<=a[i];j++){
             if(a[i]%j!=0){
                 p=1;
                 break;
