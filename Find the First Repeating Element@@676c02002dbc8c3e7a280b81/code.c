@@ -13,11 +13,10 @@ int main(){
             k=1;
             break;
         }
-        else{
-            k=0;
-            continue;
-        }
     }
+     if(k){
+        break;
+     }
 }
 
     if(k){
