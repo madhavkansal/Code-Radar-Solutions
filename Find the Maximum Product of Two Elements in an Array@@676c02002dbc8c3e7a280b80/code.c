@@ -26,6 +26,6 @@ int main(){
     printf("%d",a[0]*a[1]);
     }
     else{
-        printf("%d",a[n-1]*a[n-2]);
+        printf("%d",a[0]*a[1]);
     }
 }
