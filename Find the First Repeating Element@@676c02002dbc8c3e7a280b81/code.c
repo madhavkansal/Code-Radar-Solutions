@@ -14,7 +14,7 @@ int main(){
         }
     }
     if(j){
-    printf("%d",a[i]);
+    printf("%d",p);
     }
     else{
         printf("-1");
