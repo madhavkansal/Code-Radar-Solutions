@@ -26,12 +26,7 @@ int main() {
                 break;
         }
     }
-    if(p!=a[n-1]){
     printf("%d\n", p);
-    }
-    else{
-        printf("%d",a[n-1]);
-    }
     
     return 0;
 }}}
