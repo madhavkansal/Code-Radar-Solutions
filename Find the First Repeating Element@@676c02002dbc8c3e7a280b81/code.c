@@ -14,10 +14,11 @@ int main(){
             break;
         }
     }
+}
+
     if(j){
         printf("%d",p);
     }
     else{
         printf("-1");
-    }
-}}
+    }}
