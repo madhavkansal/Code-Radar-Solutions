@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 int main(){
     int n;
     scanf("%d",&n);
@@ -8,6 +9,7 @@ int main(){
     }
     for(int i=0;i<n;i++){
         for (int j=0;j<n-i-1;j++){
+            a[j]=abs(a[j]);
             if(a[j]<a[j+1]){
                 int t=a[j];
                 a[j]=a[j+1];
@@ -15,17 +17,7 @@ int main(){
             }
         }
     }
-    int p=1;
-    for(int i=0;i<n;i++){
-        if(a[i]>=0){
-            p=1;
-            continue;
-        }
-    }
-    if(p){
+    
     printf("%d",a[0]*a[1]);
-    }
-    else{
-        printf("%d",a[0]*a[1]);
-    }
+   
 }
