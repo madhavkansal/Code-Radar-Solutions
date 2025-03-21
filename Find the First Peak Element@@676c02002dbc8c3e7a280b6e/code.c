@@ -32,7 +32,7 @@ int main() {
     printf("%d\n", p);
     }
     else{
-        printf("b");
+        printf("%d",a[n-1]);
     }
     return 0;
 }}}
