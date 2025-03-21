@@ -19,16 +19,16 @@ int main() {
                 return 0; // Exit the program
             }
         }
-        int n=0;
+        int b=0;
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
             if (a[j] > a[j + 1] && a[j]>a[j-1]) {
                 p=a[j];
-                n=1;
+                b=1;
                 break;
         }
     }
-    if(n){
+    if(b){
     printf("%d\n", p);
     }
     else{
