@@ -16,7 +16,7 @@ int main(){
         }
     }
     int p=1;
-    for(int i=0;j<n;i++){
+    for(int i=0;i<n;i++){
         if(a[i] !=a[0]){
             p=0;
             break;
