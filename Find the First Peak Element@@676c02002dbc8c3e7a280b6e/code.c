@@ -24,20 +24,15 @@ int main() {
         for (int j = 0; j < n - i - 1; j++) {
             if (a[j] > a[j + 1] && a[j]>a[j-1]) {
                 p=a[j];
-                if(p!=a[n-1]){
+                n=1;
                 break;
-                }
-                else{
-                    n=1;
-                    break;
-                }
         }
     }
     if(n){
-        printf("%d",a[n-1]);
+    printf("%d\n", p);
     }
     else{
-    printf("%d\n", p);
+        printf("b");
     }
     return 0;
 }}}
