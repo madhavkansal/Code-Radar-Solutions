@@ -15,6 +15,10 @@ int main(){
             }
         }
     }
+    if(len(set(a))==1){
+        printf("1");
+    }
+    else{
     int c=1;
     for (int i=0;i<n;i++){
         if(a[i]+1 == a[i+1]){
@@ -22,4 +26,5 @@ int main(){
         }
     }
     printf("%d",c);
+    }
 }
