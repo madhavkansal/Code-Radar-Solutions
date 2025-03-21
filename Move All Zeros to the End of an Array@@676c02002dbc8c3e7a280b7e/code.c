@@ -12,8 +12,8 @@ int main(){
             int temp=a[i];
             a[i]=a[k];
             a[k]=temp;
-            continue;
-        }
+            k++;
+                    }
     }
     for(int i=0;i<n;i++){
         printf("%d ",a[i]);
