@@ -11,6 +11,7 @@ int main(){
         for(int j=0;j<n-i-1;j++){
         if(a[i]*a[j]>max){
             max=a[i]*a[j];
+            continue;
         }
         }
     }
