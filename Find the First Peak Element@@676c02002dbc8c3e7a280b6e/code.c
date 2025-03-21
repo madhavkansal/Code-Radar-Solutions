@@ -34,7 +34,7 @@ int main() {
         }
     }
     if(n){
-        printf("%d",a[n-1])
+        printf("%d",a[n-1]);
     }
     else{
     printf("%d\n", p);
