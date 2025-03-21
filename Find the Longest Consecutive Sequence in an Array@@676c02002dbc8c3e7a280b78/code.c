@@ -16,20 +16,22 @@ int main(){
         }
     }
     int p=1;
+    for(int i=0;j<n;i++){
+        if(a[i] !=a[0]){
+            p=0;
+            break;
+        }
+    }
+    if(p){
+        printf("1");
+    }
+    else{
     int c=1;
     for (int i=0;i<n;i++){
-        if(a[i] !=a[0]){
         if(a[i]+1 == a[i+1]){
             c+=1;
         }
-        }
-        else{
-            p=0;
-        }
     }
-    if (p)
     printf("%d",c);
-    else{
-        printf("1");
     }
 }
