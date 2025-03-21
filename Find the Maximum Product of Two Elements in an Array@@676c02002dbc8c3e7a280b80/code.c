@@ -6,7 +6,7 @@ int main(){
     for (int i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    int max=a[0]
+    int max=a[0];
     for(int i=0;i<n;i++){
         for(int j=0;j<n-i-1;j++){
         if(a[i]*a[j]>max){
