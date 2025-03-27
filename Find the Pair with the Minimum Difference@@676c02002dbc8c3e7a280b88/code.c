@@ -6,7 +6,7 @@ int main(){
     for(int i=0 ;i<n;i++){
         scanf("%d",&n);
     }
-    min =a[i];
+    int min =a[i];
     for(int i=0 ;i<n;i++){
         for (int j=i ;j<n j++)
         if(a[i]-a[j]<min || a[j]-a[i]<min){
