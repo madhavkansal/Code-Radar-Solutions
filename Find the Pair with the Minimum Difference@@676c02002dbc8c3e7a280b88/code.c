@@ -18,7 +18,7 @@ int main() {
     
     // Find the pair of elements with the minimum difference
     for (int i = 0; i < n; i++) {
-        for (int j = i + 1; j < n; j++) { // Start j from i + 1 to avoid comparing the same elements
+        for (int j = 0; j < n; j++) { // Start j from i + 1 to avoid comparing the same elements
             int diff = a[i] - a[j];
             if (diff < 0) diff = -diff; // Take the absolute value of the difference
             if (diff < min_diff) {
