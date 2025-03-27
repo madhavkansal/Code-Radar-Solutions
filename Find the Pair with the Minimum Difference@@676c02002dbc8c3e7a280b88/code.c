@@ -17,6 +17,6 @@ int main(){
             p=a[i];
             q=a[j];
         }
-    }}
+    }
     printf("%d %d",p,q);
 }
