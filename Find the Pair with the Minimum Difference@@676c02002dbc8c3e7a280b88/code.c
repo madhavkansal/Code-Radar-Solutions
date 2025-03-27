@@ -11,7 +11,7 @@ int main(){
         for (int j=i+1 ;j<n ;j++)
         d=a[i]-a[j];
         if(d<0){
-            d=-d
+            d=-d;
         }
         if(d<min){
             p=a[i];
