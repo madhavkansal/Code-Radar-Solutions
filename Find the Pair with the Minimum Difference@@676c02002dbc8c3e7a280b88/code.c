@@ -8,7 +8,7 @@ int main(){
     }
     int min = a[0];
     for(int i=0 ;i<n;i++){
-        for (int j=i+1 ;j<n ;j++)
+        for (int j=i+1 ;j<n ;j++){
         d=a[i]-a[j];
         if(d<0){
             d=-d;
