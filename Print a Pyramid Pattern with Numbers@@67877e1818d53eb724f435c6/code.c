@@ -13,7 +13,7 @@ int main(){
             printf("*");
         }
         a++;
-        nst+=2;
+        nst+=1;
         printf("\n");
     }
     
