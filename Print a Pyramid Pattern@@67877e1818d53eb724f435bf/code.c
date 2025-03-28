@@ -7,7 +7,7 @@ int main(){
             printf(" ");
         }
         nsp++;
-        for(j=1;j<=nst;j++){
+        for(int j=1;j<=nst;j++){
             printf("*");
         }
         nst+=2;
