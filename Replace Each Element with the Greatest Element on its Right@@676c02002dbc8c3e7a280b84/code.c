@@ -13,7 +13,6 @@ int main(){
             }
             if(a[j]>a[i]){
                 a[i]=a[j];
-                break;
             }
         }
     }
