@@ -10,7 +10,7 @@ int main(){
         }
         nsp--;
         for(int j=1;j<=n;j++){
-            printf("%*",a);
+            printf("*",a);
             
         a++;
         }
