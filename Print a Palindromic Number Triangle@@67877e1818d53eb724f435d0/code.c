@@ -11,12 +11,12 @@ int main(){
         }
         nsp--;
         for(int j=1;j<=nst;j++){
-            printf("%d ",a);
+            printf("%d",a);
             
         a++;
         }
         for(int j=1;j<=i-1;j++){
-            printf("%d ",b);
+            printf("%d",b);
             
         b--;
         }
