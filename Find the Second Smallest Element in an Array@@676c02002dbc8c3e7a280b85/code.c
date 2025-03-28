@@ -11,7 +11,7 @@ int main(){
         for (int j=1;j<n;j++){
             if(a[i]!=a[j]){
                 int k=1;
-                continue;
+                break;
             }
         }
     }
