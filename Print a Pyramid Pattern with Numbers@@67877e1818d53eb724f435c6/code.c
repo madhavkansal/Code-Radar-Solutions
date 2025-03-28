@@ -10,9 +10,10 @@ int main(){
         }
         nsp--;
         for(int j=1;j<=nst;j++){
-            printf("*");
-        }
+            printf("%d ",a);
+            
         a++;
+        }
         nst+=1;
         printf("\n");
     }
