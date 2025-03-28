@@ -9,7 +9,7 @@ int main(){
     for(int i=0;i<n;i++){
         for(int j=i+1 ;j<n;j++){
             if(a[j]==a[i]){
-                continue;
+                break;
             }
             if(a[j]>a[i]){
                 a[i]=a[j];
