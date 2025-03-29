@@ -8,7 +8,7 @@ int main(){
     }
     for(int i=0;i<n;i++){
         if(a[i]%2==0){
-            a1[i]=a[i];
+            a1[c]=a[i];
             c+=1;
         }
     }
