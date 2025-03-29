@@ -16,15 +16,16 @@ int main(){
             }
         }
     }
-    }
-    else{
-        printf("YES");
-    }
+    
     if(p){
         printf("YES");
 
     }
     else{
         printf("NO");
+    }
+    }
+    else{
+        printf("YES");
     }
 }
