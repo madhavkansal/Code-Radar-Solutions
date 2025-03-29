@@ -11,5 +11,7 @@ int main(){
         sum+=a[i];
         printf("%d ",sum);
     }
-    
+    for (int i=0;i<n;i++){
+        printf("%d ",a[i]);
+    }
 }
