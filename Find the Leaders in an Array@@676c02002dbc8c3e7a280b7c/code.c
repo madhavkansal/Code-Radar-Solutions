@@ -14,7 +14,7 @@ int main(){
                 continue;
                 
             }
-             printf("%d ",max;
+             printf("%d ",max);
         }
        
     }
