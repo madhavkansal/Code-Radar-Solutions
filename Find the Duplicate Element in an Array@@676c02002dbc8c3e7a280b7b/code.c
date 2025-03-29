@@ -12,7 +12,7 @@ int main(){
         }
     
     for(int j=i+1;j<n;j++){
-        if(a[j]==a[j+1]){
+        if(a[i]==a[j]){
             c+=1;
             v[j]=1;
         }
