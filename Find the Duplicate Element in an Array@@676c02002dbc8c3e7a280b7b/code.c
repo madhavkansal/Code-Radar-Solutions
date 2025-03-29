@@ -17,7 +17,7 @@ int main(){
             v[j]=1;
         }
     }
-    if(c>1){
+    if(c>0){
         printf("%d",a[i]);
         v[i]=1;
     }
