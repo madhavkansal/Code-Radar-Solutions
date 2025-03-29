@@ -7,10 +7,9 @@ int main(){
         scanf("%d",&a[i]);
     }
     int sum;
-    for (int i=1;i<n;i++){
-        sum=a[i]+a[i+1];
-        a[i]=a[i+1];
-        a[i+1]=sum;
+    for (int i=0;i<n;i++){
+        sum+=a[i]
+        printf("%d ",sum);
     }
     for (int i=0;i<n;i++){
         printf("%d ",a[i]);
