@@ -6,10 +6,12 @@ int main(){
     for (int i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    int sum;
+    int sum=0;
     for (int i=0;i<n;i++){
         sum+=a[i];
         printf("%d ",sum);
     }
-    
+    for (int i=0;i<n;i++){
+        printf("%d ",a[i]);
+    }
 }
