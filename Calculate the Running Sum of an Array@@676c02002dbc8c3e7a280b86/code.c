@@ -8,7 +8,7 @@ int main(){
     }
     int sum;
     for (int i=0;i<n;i++){
-        sum+=a[i]
+        sum+=a[i];
         printf("%d ",sum);
     }
     for (int i=0;i<n;i++){
