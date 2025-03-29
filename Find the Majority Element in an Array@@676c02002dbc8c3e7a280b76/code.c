@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int n,c=0;
-    scanf("%d",n);
+    scanf("%d",&n);
     int a[n],v[n];
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
