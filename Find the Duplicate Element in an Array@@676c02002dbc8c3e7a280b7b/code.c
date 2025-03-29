@@ -11,7 +11,7 @@ int main(){
             continue;
         }
     
-    for(int j=i+1;i<n;j++){
+    for(int j=i+1;j<n;j++){
         if(a[j]==a[j+1]){
             c+=1;
             v[j]=1;
