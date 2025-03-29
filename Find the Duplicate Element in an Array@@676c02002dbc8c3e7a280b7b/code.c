@@ -10,7 +10,7 @@ int main(){
         if(v[i]==1){
             continue;
         }
-    }
+    
     for(int j=i+1;i<n;j++){
         if(a[j]==a[j+1]){
             c+=1;
@@ -19,5 +19,6 @@ int main(){
     }
     if(c>1){
         printf("%d",a[i]);
+    }
     }
 }
