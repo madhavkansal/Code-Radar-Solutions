@@ -16,12 +16,11 @@ int main(){
         }
         while(a[i]>0){
         int d=a[i]%10;
-         p=p*10+d;
+        p=p*10+d;
         a[i]=a[i]/10;
         }
-        if(p==a[i]){
+        if(a[i]==p){
             c+=1;
-            v[i]=1;
         }
     }
     printf("%d",c);
