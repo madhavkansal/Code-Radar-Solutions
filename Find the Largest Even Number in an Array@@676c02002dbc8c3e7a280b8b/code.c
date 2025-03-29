@@ -15,10 +15,10 @@ int main(){
     if(c!=0){
     for(int i=0;i<c;i++){
         for(int j=0;j<c-1-i;j++){
-            if(a[j]<a[j+1]){
-                int temp =a[j];
-                a[j]=a[j+1];
-                a[j+1]=temp;
+            if(a1[j]<a1[j+1]){
+                int temp =a1[j];
+                a1[j]=a1[j+1];
+                a1[j+1]=temp;
             }
         }
     }
