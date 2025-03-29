@@ -6,8 +6,15 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    int p=(n-1)/2;
+    
     if(n%2!=0){
+        int p=(n-1)/2;
         printf("%d",a[p]);
+    }
+    else{
+        p=n/2
+        int q=p+1;
+        g=a([p]+a[q])/2;
+        printf("%d",g);
     }
 }
