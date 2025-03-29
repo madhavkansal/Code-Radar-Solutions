@@ -12,7 +12,7 @@ int main(){
         printf("%d",a[p]);
     }
     else{
-        p=n/2
+        int p=n/2
         int q=p+1;
         g=a([p]+a[q])/2;
         printf("%d",g);
