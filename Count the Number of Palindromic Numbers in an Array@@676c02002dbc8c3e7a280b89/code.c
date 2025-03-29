@@ -9,8 +9,9 @@ int main(){
     for(int i=0;i<n;i++){
         v[i]=0;
     }
-    int c=0,p=0,og;
+    int c=0,og;
     for(int i=0;i<n;i++){
+        int p=0;
         og=a[i];
         while(a[i]>0){
         int d=a[i]%10;
