@@ -25,9 +25,5 @@ int main(){
             max=a[i];
         }
     }
-    if(f<=1){
-    printf("%d",max);}
-    else{
-        printf("-1");
-    }
+    printf("%d",max);
 }
