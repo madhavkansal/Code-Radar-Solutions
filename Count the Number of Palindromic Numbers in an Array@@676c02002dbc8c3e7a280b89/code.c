@@ -9,7 +9,7 @@ int main(){
     for(int i=0;i<n;i++){
         v[i]=0;
     }
-    int c=0,p;
+    int c=0,p=0;
     for(int i=0;i<n;i++){
         if(v[i]==1){
             continue;
