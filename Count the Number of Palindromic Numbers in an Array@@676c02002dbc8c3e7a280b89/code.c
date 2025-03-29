@@ -9,17 +9,15 @@ int main(){
     for(int i=0;i<n;i++){
         v[i]=0;
     }
-    int c=0,p=0;
+    int c=0,p=0,og;
     for(int i=0;i<n;i++){
-        if(v[i]==1){
-            continue;
-        }
+        og=a[i];
         while(a[i]>0){
         int d=a[i]%10;
         p=p*10+d;
         a[i]=a[i]/10;
         }
-        if(a[i]==p){
+        if(og==p){
             c+=1;
         }
     }
