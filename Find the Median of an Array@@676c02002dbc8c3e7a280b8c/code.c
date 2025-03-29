@@ -14,7 +14,7 @@ int main(){
     else{
         int p=n/2;
         int q=p+1;
-        g=a([p]+a[q])/2;
+        int g=a([p]+a[q])/2;
         printf("%d",g);
     }
 }
