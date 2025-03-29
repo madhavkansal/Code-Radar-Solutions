@@ -14,7 +14,7 @@ int main(){
         if(v[i]==1){
             continue;
         }
-        int d=a[i]%10;
+        int d[i]=a[i]%10;
         a[i]=a[i]/10;
         if(d[i]==a[i]){
             c+=1;
