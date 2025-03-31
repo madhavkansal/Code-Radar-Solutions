@@ -9,13 +9,16 @@ int main() {
     for (int i = 0; i < n; i++) {
         scanf("%d", &a[i]);
     }
+
     for(int i=0;i<n;i++){
-        for(int j=1;j*j<=a[i];j++){
+        if(a[i]>2){
+        for(int j=2;j*j<=a[i];j++){
             if(a[i]%j==0){
                 c+=1;
                 continue;
             }
         }
+    }
     }
     printf("%d",c);
 }
