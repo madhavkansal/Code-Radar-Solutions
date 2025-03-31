@@ -9,25 +9,12 @@ int main() {
     for (int i = 0; i < n; i++) {
         scanf("%d", &a[i]);
     }
-
-    // Check each number in the array
-    for (int i = 0; i < n; i++) {
-        int isPrime = 1; // Assume the number is prime
-        if (a[i] < 2) {
-            isPrime = 0; // Numbers less than 2 are not prime
-        } else {
-            for (int j = 2; j * j <= a[i]; j++) {
-                if (a[i] % j == 0) {
-                    isPrime = 0; // Found a divisor, not prime
-                    break;
-                }
+    for(int i=0;i<n;i++){
+        for(int j=0;j*j<=a[i];j++){
+            if(a[i]%j==0){
+                c+=1;
             }
         }
-        if (isPrime) {
-            c++; // Count the prime number
-        }
     }
-
-    printf("%d\n", c); // Print the count of prime numbers
-    return 0;
+    printf("%d",c);
 }
