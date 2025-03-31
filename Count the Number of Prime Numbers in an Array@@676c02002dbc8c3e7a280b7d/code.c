@@ -15,7 +15,6 @@ int main() {
         for(int j=2;j*j<=a[i];j++){
             if(a[i]%j==0){
                 c+=1;
-                continue;
             }
         }
     }
