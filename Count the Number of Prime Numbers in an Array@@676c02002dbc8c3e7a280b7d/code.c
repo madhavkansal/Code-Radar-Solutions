@@ -13,6 +13,7 @@ int main() {
         for(int j=1;j*j<=a[i];j++){
             if(a[i]%j==0){
                 c+=1;
+                break;
             }
         }
     }
