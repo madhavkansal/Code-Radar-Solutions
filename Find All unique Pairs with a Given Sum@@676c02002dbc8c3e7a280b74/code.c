@@ -16,6 +16,6 @@ int main(){
                 y=a[j];
             }
         }
-        printf("%d \n",x,y);
+        printf("%d %d\n",x,y);
     }
 }
