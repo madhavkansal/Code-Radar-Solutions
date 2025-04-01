@@ -13,8 +13,9 @@ int main(){
             if(a[i]+a[j]==m){
                 x=a[i];
                 y=a[j];
+                
+        printf("%d %d\n",x,y);
             }
         }
-        printf("%d %d\n",x,y);
     }
 }
