@@ -14,6 +14,9 @@ int main(){
             break;
         }
     }
+     if(k){
+        break;
+     }
 }
 
     if(k){
